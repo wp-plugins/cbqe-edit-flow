@@ -1,0 +1,36 @@
+# Copyright (C) 2013 Custom Bulk/Quick Edit - Edit Flow
+# This file is distributed under the same license as the Custom Bulk/Quick Edit - Edit Flow package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Bulk/Quick Edit - Edit Flow 1.0.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/cbqe-edit-flow\n"
+"POT-Creation-Date: 2013-12-01 23:25:27+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: cbqe-edit-flow.php:139
+msgid "If your Edit Flow for Custom Bulk/Quick Edit display has gone to funky town, please <a href=\"%s\">read the FAQ</a> about possible CSS fixes."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Custom Bulk/Quick Edit - Edit Flow"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/cbqe-edit-flow/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Modify Edit Flow options via bulk and quick edit panels in conjunction with Custom Bulk/Quick Edit."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Cannon"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://aihr.us/resume/"
+msgstr ""
