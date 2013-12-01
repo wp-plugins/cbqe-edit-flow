@@ -2,6 +2,9 @@
 
 ## master
 
+## 1.0.2
+* Move screenshots to SVN assets
+
 ## 1.0.1
 * URL updates
 
