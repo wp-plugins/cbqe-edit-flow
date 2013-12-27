@@ -4,8 +4,8 @@ Contributors: comprock
 Donate link: http://aihr.us/about-aihrus/donate/
 Tags: custom, bulk edit, quick edit, custom post types, edit flow
 Requires at least: 3.5
-Tested up to: 3.8.0
-Stable tag: 1.0.2
+Tested up to: 3.9.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,14 +14,14 @@ Modify Edit Flow options via bulk and quick edit panels in conjunction with Cust
 
 == Description ==
 
-Modify Edit Flow options via bulk and quick edit panels in conjunction with Custom Bulk/Quick Edit [by Aihrus](http://aihr.us/about-aihrus/).
+Modify Edit Flow options via bulk and quick edit panels in conjunction with [Custom Bulk/Quick Edit by Aihrus](http://aihr.us/about-aihrus/).
 
 = Editable Edit Flow Editorial Metadata Attributes =
 
 * Checkbox
-* Date
+* Date - Uses date and picker
 * Location (As input)
-* Number (As float, As int)
+* Number - (As input) As int requires [Custom Bulk/Quick Edit Premium](http://aihr.us/downloads/custom-bulkquick-edit-premium-wordpress-plugin/) 
 * Paragraph (As textarea)
 * Text (As input)
 * User
@@ -67,7 +67,7 @@ Modify Edit Flow options via bulk and quick edit panels in conjunction with Cust
 	* Select plugins for update, click "Update Plugins"
 * Using FTP
 	* Download and unzip [`cbqe-edit-flow.zip`](http://downloads.wordpress.org/plugin/cbqe-edit-flow.zip) locally
-	* FTP, upload directory `cbqe-edit-flow` to your website's `/wp-content/plugins/` directory
+	* Upload directory `cbqe-edit-flow` to your website's `/wp-content/plugins/` directory
 	* Be sure to overwrite your existing `cbqe-edit-flow` folder contents
 
 
@@ -75,6 +75,7 @@ Modify Edit Flow options via bulk and quick edit panels in conjunction with Cust
 
 = Most Common Issues =
 
+* Where is the Date picker? Buy [Custom Bulk/Quick Edit Premium](http://aihr.us/downloads/custom-bulkquick-edit-premium-wordpress-plugin/) 
 * [How do I add custom columns to my edit page?](https://aihrus.zendesk.com/entries/24800411)
 * [How do you configure options?](https://aihrus.zendesk.com/entries/24911342)
 * [Where can I find working samples?](https://aihrus.zendesk.com/entries/27667723)
@@ -104,6 +105,10 @@ See [CHANGELOG](https://github.com/michael-cannon/cbqe-edit-flow/blob/master/CHA
 
 
 == Upgrade Notice ==
+
+= 1.1.0 =
+
+* Current configurations could be lost during upgrading. Please copy your Edit Flow field configuration data to someplace safe to make restoration easy. The underlying custom field key naming structure has changed to support Edit Flow 0.8.0.
 
 = 0.0.1 =
 
