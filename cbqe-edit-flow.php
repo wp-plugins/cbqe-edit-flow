@@ -3,7 +3,7 @@
  * Plugin Name: Custom Bulk/Quick Edit by Aihrus - Edit Flow
  * Plugin URI: http://wordpress.org/plugins/cbqe-edit-flow/
  * Description: Modify Edit Flow options via bulk and quick edit panels in conjunction with Custom Bulk/Quick Edit by Aihrus.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Michael Cannon
  * Author URI: http://aihr.us/resume/
  * License: GPLv2 or later
@@ -24,7 +24,7 @@
  * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-define( 'CBQE_EF_AIHR_VERSION', '1.0.0' );
+define( 'CBQE_EF_AIHR_VERSION', '1.0.1' );
 define( 'CBQE_EF_BASE', plugin_basename( __FILE__ ) );
 define( 'CBQE_EF_DIR', plugin_dir_path( __FILE__ ) );
 define( 'CBQE_EF_DIR_LIB', CBQE_EF_DIR . '/lib' );
@@ -36,8 +36,8 @@ define( 'CBQE_EF_NAME', 'Edit Flow for Custom Bulk/Quick Edit by Aihrus' );
 define( 'CBQE_EF_REQ_BASE', 'custom-bulkquick-edit/custom-bulkquick-edit.php' );
 define( 'CBQE_EF_REQ_NAME', 'Custom Bulk/Quick Edit by Aihrus' );
 define( 'CBQE_EF_REQ_SLUG', 'custom-bulkquick-edit' );
-define( 'CBQE_EF_REQ_VERSION', '1.4.0' );
-define( 'CBQE_EF_VERSION', '1.1.0' );
+define( 'CBQE_EF_REQ_VERSION', '1.4.1' );
+define( 'CBQE_EF_VERSION', '1.1.1' );
 
 require_once CBQE_EF_DIR_LIB . '/requirements.php';
 
@@ -170,7 +170,9 @@ class Custom_Bulkquick_Edit_Edit_Flow extends Aihrus_Common {
 		$valid_version = true;
 
 		$valid_base = true;
-		if ( ! defined( 'CBQE_VERSION' ) ) {
+		if ( ! is_plugin_active( CBQE_EF_REQ_BASE ) ) {
+			$valid_base = false;
+		} elseif ( ! defined( 'CBQE_VERSION' ) ) {
 			$valid_base = false;
 		} elseif ( ! version_compare( CBQE_VERSION, CBQE_EF_REQ_VERSION, '>=' ) ) {
 			$valid_base = false;
