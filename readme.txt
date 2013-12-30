@@ -5,7 +5,7 @@ Donate link: http://aihr.us/about-aihrus/donate/
 Tags: custom, bulk edit, quick edit, custom post types, edit flow
 Requires at least: 3.5
 Tested up to: 3.9.0
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,7 +14,7 @@ Modify Edit Flow options via bulk and quick edit panels in conjunction with Cust
 
 == Description ==
 
-Modify Edit Flow options via bulk and quick edit panels in conjunction with [Custom Bulk/Quick Edit by Aihrus](http://wordpress.org/plugins/custom-bulkquick-edit/).
+Modify Edit Flow options via bulk and quick edit panels in conjunction with Custom Bulk/Quick Edit [by Aihrus](http://aihr.us/about-aihrus/).
 
 = Editable Edit Flow Editorial Metadata Attributes =
 

@@ -2,6 +2,10 @@
 
 ## master
 
+## 1.1.1
+* BUGFIX Inactive REQ_BASE due to old Aihrus Framework
+* Use Aihrus Framework 1.0.1
+
 ## 1.1.0
 * Bring in Aihrus Framework
 * Convert TODO to https://github.com/michael-cannon/cbqe-edit-flow/issues
