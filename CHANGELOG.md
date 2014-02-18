@@ -2,6 +2,15 @@
 
 ## master
 
+## 1.2.0
+* Move main class to includes
+* Remove Aihrus Framework loading during requirements checking
+* Require Custom Bulk/Quick Edit 1.5.0
+* RESOLVE Doesn't activate with premium plugin
+* Specify a “Text Domain” and “Domain Path”
+* Update file structure
+* Use Codeship.io than Travis CI
+
 ## 1.1.1
 * BUGFIX Inactive REQ_BASE due to old Aihrus Framework
 * Use Aihrus Framework 1.0.1
