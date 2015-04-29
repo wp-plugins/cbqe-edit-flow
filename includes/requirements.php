@@ -1,6 +1,6 @@
 <?php
 /*
-	Copyright 2014 Michael Cannon (email: mc@aihr.us)
+	Copyright 2015 Axelerant (email: info@axelerant.com)
 
 	This program is free software; you can redistribute it and/or modify
 	it under the terms of the GNU General Public License, version 2, as
@@ -66,14 +66,14 @@ function cbqe_ef_requirements_check() {
 
 function cbqe_ef_notice_version() {
 	aihr_notice_version( CBQE_EF_REQ_BASE, CBQE_EF_REQ_NAME, CBQE_EF_REQ_SLUG, CBQE_EF_REQ_VERSION, CBQE_EF_NAME );
-	
+
 	deactivate_plugins( CBQE_EF_BASE );
 }
 
 
 function cbqe_ef_notice_version_ef() {
 	aihr_notice_version( CBQE_EF_EXT_BASE, CBQE_EF_EXT_NAME, CBQE_EF_EXT_SLUG, CBQE_EF_EXT_VERSION, CBQE_EF_NAME );
-	
+
 	deactivate_plugins( CBQE_EF_BASE );
 }
 

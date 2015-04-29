@@ -1,6 +1,6 @@
 <?php
 /**
- * Copyright 2014 Michael Cannon (email: mc@aihr.us)
+ * Copyright 2015 Axelerant (email: info@axelerant.com)
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License, version 2, as
  * published by the Free Software Foundation.
@@ -221,7 +221,7 @@ class Custom_Bulkquick_Edit_Edit_Flow extends Aihrus_Common {
 			return $fields;
 
 		$options = get_option( 'edit_flow_editorial_metadata_options' );
-		if ( empty( $options ) || empty( $options->post_types[ $post_type ] ) || 'on' != $options->post_types[ $post_type ] ) 
+		if ( empty( $options ) || empty( $options->post_types[ $post_type ] ) || 'on' != $options->post_types[ $post_type ] )
 			return $fields;
 
 		$efem  = new EF_Editorial_Metadata();
