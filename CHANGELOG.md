@@ -1,6 +1,13 @@
-# CHANGELOG Edit Flow for Custom Bulk/Quick Edit by Aihrus
+# CHANGELOG - Edit Flow for Custom Bulk/Quick Edit
 
 ## master
+
+## 1.3.0
+* Change brand name from Aihrus to Axelerant
+* Require Custom Bulk/Quick Edit 1.6.0
+* Revise plugin name
+* Update copyright
+* Update file headers
 
 ## 1.2.1
 * Require Custom Bulk/Quick Edit 1.5.1
